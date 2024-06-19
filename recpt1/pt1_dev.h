@@ -202,8 +202,8 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   2, CHTYPE_SATELLITE, 0, "192"},  /* 192ch：WOWOWライブ */
     {   2, CHTYPE_SATELLITE, 1, "193"},  /* 193ch：WOWOWシネマ */
     {   4, CHTYPE_SATELLITE, 0, "211"},  /* 211ch：BS11イレブン */
-    {   4, CHTYPE_SATELLITE, 1, "200"},  /* 200ch：スター・チャンネル1 */
-    {   4, CHTYPE_SATELLITE, 2, "222"},  /* 222ch：BS12トゥエルビ */
+ //   {   4, CHTYPE_SATELLITE, 1, "200"},  /* 200ch：スター・チャンネル1 */
+    {   4, CHTYPE_SATELLITE, 1, "222"},  /* 222ch：BS12トゥエルビ */
     {   5, CHTYPE_SATELLITE, 0, "231"},  /* 231ch：放送大学ex */
     {   5, CHTYPE_SATELLITE, 0, "232"},  /* 232ch：放送大学on */
     {   5, CHTYPE_SATELLITE, 0, "531"},  /* 531ch：放送大学ラジオ */
@@ -213,8 +213,9 @@ ISDB_T_FREQ_CONV_TABLE    isdb_t_conv_table[] = {
     {   6, CHTYPE_SATELLITE, 2, "236"},  /* 236ch：BSアニマックス */
     {   7, CHTYPE_SATELLITE, 0, "101"},  /* 101ch：NHKBS1 */
     {   7, CHTYPE_SATELLITE, 0, "102"},  /* 102ch：NHKBS1 */
-    {   7, CHTYPE_SATELLITE, 1, "201"},  /* 201ch：スター・チャンネル2 */
-    {   7, CHTYPE_SATELLITE, 1, "202"},  /* 202ch：スター・チャンネル3 */
+    {   7, CHTYPE_SATELLITE, 1, "200"}, /* 200ch：スターチャンネル */
+//    {   7, CHTYPE_SATELLITE, 1, "201"},  /* 201ch：スター・チャンネル2 */
+//    {   7, CHTYPE_SATELLITE, 1, "202"},  /* 202ch：スター・チャンネル3 */
     {   9, CHTYPE_SATELLITE, 0, "245"},  /* 245ch：J SPORTS 4 */
     {   9, CHTYPE_SATELLITE, 1, "242"},  /* 242ch：J SPORTS 1 */
     {   9, CHTYPE_SATELLITE, 2, "243"},  /* 243ch：J SPORTS 2 */
